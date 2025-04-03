@@ -1,8 +1,9 @@
 import { Keypair, Connection, Commitment } from "@solana/web3.js";
 import { createMint } from '@solana/spl-token';
-import wallet from "../wba-wallet.json"
+import wallet from "../wba-wallet.json";
 
-//GVhJUYsm4DDD6b3RV7TXxPYAqSm2LfL42cY3YL963k5L
+
+
 
 // Import our keypair from the wallet file
 const keypair = Keypair.fromSecretKey(new Uint8Array(wallet));

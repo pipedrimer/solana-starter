@@ -14,6 +14,7 @@ umi.use(signerIdentity(signer));
 
 (async () => {
     try {
+        //https://gateway.irys.xyz/
         // Follow this JSON structure
         // https://docs.metaplex.com/programs/token-metadata/changelog/v1.0#json-structure
 

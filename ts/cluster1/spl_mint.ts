@@ -14,7 +14,7 @@ const connection = new Connection("https://api.devnet.solana.com", commitment);
 const token_decimals = 1_000_000n;
 
 // Mint address
-const mint = new PublicKey("9t28zwkL9HuS5c6k6rA6sdai3qbM5Cy4p78B5pgi79ML");
+const mint = new PublicKey("43CTRD6rXrQBPPPFct1YupvusPSLJethzdXGh71aJskG");
 
 (async () => {
     try {
@@ -27,6 +27,6 @@ const mint = new PublicKey("9t28zwkL9HuS5c6k6rA6sdai3qbM5Cy4p78B5pgi79ML");
         console.log(`Your mint txid: ${mintTx}`);
     } 
     catch(error) {
-        console.log(`Oops, something went wrong: ${error}`)
+        console.log(`Oops, something went wrong: ${error}`);
     }
 })()
